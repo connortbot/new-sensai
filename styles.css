@@ -1,0 +1,56 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+header {
+  padding: 1rem;
+}
+
+.nav-container {
+  background-color: #333;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the menu items */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center;
+  color: #fff;
+}
